@@ -1,0 +1,144 @@
+h1, h2 {
+	font-family: 'Nanum Brush Script', cursive;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 120px;
+}
+
+h2 {
+	font-size: 100px;
+	line-height: 100px;
+	display: inline;
+}
+
+h1.return {
+	font-size: 24px;
+}
+body {
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-size: 32px;
+	font-family: Georgia;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.content {
+	width: 60%;
+	box-sizing: border-box;
+	min-width: 720px;
+}
+
+
+div.header, div#imgs, div.credits {
+	width: 100%
+}
+
+
+div.header, div#imgs, div.credits, div#tour-dates, div.content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+div.header {
+	padding-bottom: 50px;
+}
+
+div#tour-dates, table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 24px;
+}
+
+div#tour-dates {
+	width: 85%;
+} 
+
+table {
+	width: 70%;
+}
+
+.sticky {
+	color: red;
+	position: fixed;
+	top: 0;
+ 	width: 60%;
+	box-sizing: border-box;
+}
+
+ul {
+	font-size: 24px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style-type: none;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+li.nav {
+	display: inline;
+	margin: -3px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+a.nav {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*For when clicking links*/
+a:active, a:hover {
+	color: red;
+}
+
+
+#tour {
+	padding-right: 10px;
+}
+#press {
+	/*border-left: 1px solid white;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#bandcamp {
+	/*border-left: 1px solid white;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#spotify {
+	/*border-left: 1px solid white;*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#video {
+	/*border-left: 1px solid white;*/
+	padding-left: 10px;
+}
+
+div#imgs>img {
+
+	margin: 60px;
+}
+
+div.credits {
+	font-size: 18px;
+	color: red;
+}
